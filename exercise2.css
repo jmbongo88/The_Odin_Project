@@ -1,0 +1,25 @@
+/* "." = class // "#" = id  */
+
+/* Styles for all odd numbered elements (paragraphs) */
+.odd {
+    background-color: #ffcccb; /* Light red/pink background */
+    font-family: Verdana, DejaVu Sans, sans-serif; /* Font list */
+}
+
+/* Specific styles for the second element (ID 'two') */
+#two {
+    color: blue; /* Blue text */
+    font-size: 36px; /* Font size of 36px */
+}
+
+/* Additional styles for class > 'adjust-font-size'  */
+.adjust-font-size {
+    font-size: 24px; /* Font size of 24px */
+}
+
+/* Specific styles for the fourth element (ID 'four') */
+#four {
+    background-color: #90ee90; /* Light green background */
+    font-size: 24px; /* Font size of 24px */
+    font-weight: bold; /* Bold text */
+}
