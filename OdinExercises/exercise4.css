@@ -1,0 +1,14 @@
+/* referenced in "exercise4.html" */
+
+
+/* Ensures the avatar retains square proportions */
+.avatar.proportioned {
+    height: auto;
+    width: 300px;
+  }
+  
+/* Distorts the avatar by making height twice the width */
+  .avatar.distorted {
+    height: 400px;
+    width: 200px;
+  }
