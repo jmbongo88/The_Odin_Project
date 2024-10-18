@@ -1,0 +1,18 @@
+/* Shared styles for both elements */
+
+.first-element, 
+.second-element {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+/* Unique styles for the first element */
+.first-element {
+    background-color: purple; 
+    color: white;
+}
+
+/* Unique styles for the second element */
+.second-element {
+    background-color: green;
+}
