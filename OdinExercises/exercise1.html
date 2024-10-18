@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ways of adding CSS methods</title>
+
+    <!-- Using CSS external method #preferred-->
+    <link rel="stylesheet" href="exercise1.css">
+
+    <!-- Using internal method #entire_page -->
+    <style>
+        p {
+          background-color: green;
+          color: white;
+          font-size: 18px;
+        }
+    </style>    
 </head>
 <body>
-    
+    <div>Style me via the external method!</div>
+    <p> would like to be styled with the internal method, please</p>
+    <!-- Using inline method below #not_preferred -->
+    <button style="background-color: orange; font-size: 18px;">Inline Method</button>
 </body>
 </html>
-
-<style>
-    div {
-    background-color: red;
-     color: white;
-    font-size: 32px;
-    text-align: center;
-    font-weight: bold;
- }
-</style>
