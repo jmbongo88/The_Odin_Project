@@ -1,4 +1,5 @@
-/* Shared styles for both elements */
+/* Grouping selectors */
+/* referenced in "exercise3.html */
 
 .first-element, 
 .second-element {
@@ -15,5 +16,6 @@
 /* Unique styles for the second element */
 .second-element {
     background-color: green;
+    color: red;
 }
       
